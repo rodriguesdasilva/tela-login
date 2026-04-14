@@ -1,0 +1,251 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Plus Jakarta Sans", sans-serif;
+}
+
+
+body {
+    color: #FFf;
+    background-color: #000;
+    height: 100vh;
+    width: 100vw;
+}
+
+.container h1 {
+    font-family: "Syne", sans-serif;
+}
+
+.paragrafo {
+    color: #747489;
+    padding: 1rem 0;
+}
+
+.container {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.title-main {
+    border: 2px solid #1B1B2E;
+    background-color: #0F0F1D;
+    backdrop-filter: blur(30px);
+    padding: 2rem;
+    border-radius: 16px;
+}
+
+.login {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 0 auto;
+}
+
+
+.login img {
+    position: absolute;
+    justify-content: center;
+    align-content: center;
+    left: 10%;
+}
+
+.login input {
+    width: 400px;
+    height: 50px;
+    border-radius: 10px;
+    padding-left: 2.5rem;
+    border: none;
+    outline: none;
+    background-color: #131325;
+    color: #eee;
+    font-size: 0.9rem;
+}
+
+.input-usuario {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: 0;
+}
+
+
+.senha {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.senha-usuario {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: 0;
+    padding-top: 1rem;
+}
+
+.senha input {
+    width: 400px;
+    height: 50px;
+    border-radius: 10px;
+    padding-left: 2.5rem;
+    border: none;
+    outline: none;
+    background-color: #131325;
+    color: #eee;
+    font-size: 1rem;
+}
+
+.senha .cadeado {
+    position: absolute;
+    justify-content: center;
+    align-content: center;
+    left: 10%;
+    margin-top: 1rem;
+}
+
+.senha .olho {
+    position: absolute;
+    justify-content: center;
+    align-content: center;
+    right: 10%;
+    cursor: pointer;
+    margin-top: 1rem;
+}
+
+.infos span {
+    position: relative;
+    left: 280px;
+    font-size: 13px;
+    width: 400px;
+    bottom: 75px;
+    color: #5345ED;
+    cursor: pointer;
+}
+
+.button-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem 0;
+}
+
+.button-content .btn-entra {
+    width: 100%;
+    height: 50px;
+    border-radius: 10px;
+    border: none;
+    justify-content: center;
+    align-items: center;
+    outline: none;
+    color: #eee;
+    font-size: 1rem;
+    background-color: #5345ED;
+    box-shadow:
+        0 0 10px rgba(94, 92, 230, 0.4),
+        0 0 20px rgba(94, 92, 230, 0.3),
+        0 0 30px rgba(94, 92, 230, 0.2);
+    transition: transform 0.2s, box-shadow 0.2s;
+    font-family: "Syne", sans-serif;
+    cursor: pointer;
+}
+
+.button-content .btn-entra:hover {
+    background-color: #5305ED;
+}
+
+
+.button-content .btn-paragrafo {
+    font-size: 12px;
+    margin-top: 1rem;
+    color: #747489;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+
+.img-rede {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+
+}
+
+.img-rede button {
+    width: 49%;
+    height: 50px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    background-color: #131325;
+    color: #eee;
+    border: 2px solid #1B1B2E;
+    font-size: 15px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    gap: 20px;
+    cursor: pointer;
+}
+
+.img-rede button:hover {
+    background-color: #131330;
+}
+
+.logo-img {
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    gap: 15px;
+}
+
+.logo-star {
+    border: 1px solid #1E1B50;
+    padding: 1rem;
+    border-radius: 16px;
+    box-shadow:
+        0 0 10px rgba(94, 92, 230, 0.4),
+        0 0 20px rgba(94, 92, 230, 0.3),
+        0 0 30px rgba(94, 92, 230, 0.2);
+    background-color: #11102A;
+    margin-bottom: 2rem;
+}
+
+.cadastro {
+    margin-top: 1rem;
+}
+
+.cadastro p {
+    color: #747489;
+    font-size: 13px;
+}
+
+.cadastro span {
+    color: #5345ED;
+    cursor: pointer;
+}
+
+.cadastro span:hover {
+    color: #5340E0;
+}
+
+.circulo {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: radial-gradient(circle at 20% 30%, #1a1a2e 0%, #0a0a0c 100%);
+    z-index: -1;
+}
