@@ -44,6 +44,12 @@ body {
     flex-direction: column;
     width: 100%;
     margin: 0 auto;
+
+}
+
+label {
+    color: #8B8B94;
+    margin-bottom: 0.5rem;
 }
 
 
@@ -52,6 +58,29 @@ body {
     justify-content: center;
     align-content: center;
     left: 10%;
+}
+
+
+.input-usuario {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: 0;
+    padding-bottom: 1rem;
+}
+
+.senha {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.senha-usuario {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: 0;
 }
 
 .login input {
@@ -66,29 +95,6 @@ body {
     font-size: 0.9rem;
 }
 
-.input-usuario {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    left: 0;
-}
-
-
-.senha {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    margin: 0 auto;
-}
-
-.senha-usuario {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    left: 0;
-    padding-top: 1rem;
-}
-
 .senha input {
     width: 400px;
     height: 50px;
@@ -99,6 +105,11 @@ body {
     background-color: #131325;
     color: #eee;
     font-size: 1rem;
+    margin-bottom: 1rem;
+}
+
+.senha input:hover {
+    border: 2px solid #5345ED;
 }
 
 .senha .cadeado {
@@ -116,6 +127,7 @@ body {
     right: 10%;
     cursor: pointer;
     margin-top: 1rem;
+    color: #fff;
 }
 
 .infos span {
@@ -123,10 +135,11 @@ body {
     left: 280px;
     font-size: 13px;
     width: 400px;
-    bottom: 75px;
-    color: #5345ED;
+    bottom: 90px;
+    color: #5347E7;
     cursor: pointer;
 }
+
 
 .button-content {
     display: flex;
@@ -165,7 +178,10 @@ body {
     font-size: 12px;
     margin-top: 1rem;
     color: #747489;
+    font-size: 0.9rem;
 }
+
+
 
 .buttons {
     display: flex;
@@ -238,9 +254,7 @@ body {
     cursor: pointer;
 }
 
-.cadastro span:hover {
-    color: #5340E0;
-}
+
 
 .circulo {
     position: absolute;
@@ -249,3 +263,38 @@ body {
     background: radial-gradient(circle at 20% 30%, #1a1a2e 0%, #0a0a0c 100%);
     z-index: -1;
 }
+
+
+.cadastro p span a {
+    text-decoration: none;
+    list-style: none;
+    color: #5345ED;
+
+}
+
+.cadastro p span a:hover {
+    color: #5340E0;
+}
+
+.senha span p a {
+    color: #5345ED;
+    text-decoration: none;
+}
+
+.senha p span a:hover {
+    color: #5345ED;
+}
+
+.button-content p a {
+    color: #747489;
+    text-decoration: none;
+}
+
+.button-content p a:hover {
+    color: #eee;
+}
+
+.login .input-usuario .input-recu {
+    padding-left: 0.5rem;
+}
+

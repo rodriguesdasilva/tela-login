@@ -21,11 +21,22 @@
         <div class="circulo">
 
         </div>
-        <h1>Login</h1>
-        <p class="paragrafo">Entre para continuar sua jornada</p>
+        <h1>Crie sua conta</h1>
+        <p class="paragrafo">Comece gratuitamente, sem cartão de crédito</p>
         <div class="title-main">
             <div class="content-main">
                 <div class="tebela-login">
+
+                    <div class="login">
+                        <label>Nome completo</label>
+                        <div class="input-usuario">
+                            <img width="20" height="20"
+                                src="https://img.icons8.com/ios-glyphs/20/ffffff/gender-neutral-user.png"
+                                alt="gender-neutral-user" />
+                            <input type="text" placeholder="Seu nome">
+                        </div>
+                    </div>
+
 
                     <div class="login">
                         <label>Email</label>
@@ -33,7 +44,7 @@
                             <img width="20" height="20"
                                 src="https://img.icons8.com/external-smashingstocks-glyph-smashing-stocks/20/ffffff/external-emails-shopping-and-commerce-smashingstocks-glyph-smashing-stocks.png"
                                 alt="external-emails-shopping-and-commerce-smashingstocks-glyph-smashing-stocks" />
-                            <input class="inputEmail" type="email" placeholder="seu@gmail.com" required>
+                            <input id="emailNovo" type="email" placeholder="seu@gmail.com" required>
                         </div>
                     </div>
 
@@ -43,17 +54,15 @@
                             <div class="infos">
                                 <img class="cadeado" width="20" height="20"
                                     src="https://img.icons8.com/ios-glyphs/20/ffffff/lock--v1.png" alt="lock--v1" />
-                                <input type="password" class="inputSenha" placeholder="senha">
+                                <input id="senhaNova" type="password" class="inputSenha" placeholder="senha" required>
                                 <img class="olho" width="20" height="20" src="./img/olhofechado.png"
                                     onclick="eventoSenha()" />
-                                <span>
-                                    <p><a href="recuperacao.html" target="_blank">Esqueceu a senha?</a></p>
-                                </span>
+
                             </div>
                         </div>
                     </div>
                     <div class="button-content">
-                        <button class="btn-entra" onclick="logarUsuario()">Entrar</button>
+                        <button class="btn-entra" onclick="criarNovoUsuario()">Criar conta</button>
                         <p class="btn-paragrafo">ou continue com</p>
                     </div>
                     <div class="buttons">
@@ -80,7 +89,8 @@
             </div>
         </div>
         <div class="cadastro">
-            <p>Não tem uma conta? <span class="destaque-paragrafo"><a href="criarconta.html" target="_blank">Cadastre-se</a></span></p>
+            <p>Já tem uma conta? <span class="destaque-paragrafo"><a href="index.html" target="_blank"> Faça
+                        login</a></span></p>
         </div>
     </main>
     <script src="script.js"></script>
